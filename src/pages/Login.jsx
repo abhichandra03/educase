@@ -26,7 +26,7 @@ export default function Login() {
         await login(user)
         navigate('/profile');
       } else {
-        setError('Invalid email or password');
+        alert('Invalid email or password')
       }
       
     } catch (err) {
